@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     let total = 0;
-    let path = "modulos/modulosProductos_yuli/";
+    let path = "modulosProductos_yuli/";
 
 
     fetch(path + "productos.json")
