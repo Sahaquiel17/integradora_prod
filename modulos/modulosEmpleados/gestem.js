@@ -1,7 +1,7 @@
 let obj = [];
 let indexEmpleadoSeleccionado;
-const dataPath = "http://localhost:8080/Proyecto1/modulos/modulosEmpleados/";
-const imgPath = "http://localhost:8080/Proyecto1/modulos/modulosEmpleados/imagenes/"; // Define imgPath aquí
+const dataPath = "modulos/modulosEmpleados/";
+const imgPath = "modulos/modulosEmpleados/imagenes/"; // Define imgPath aquí
 
 // Cargar los datos desde el archivo JSON
 fetch(dataPath + "empleadosjson.json")
