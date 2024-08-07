@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     let total = 0;
-    const path = "modulos/moduloProductos/";
+    const path = "moduloProductos/";
     const productList = document.getElementById('product-list');
     const cart = document.getElementById('cart');
     const totalElement = document.getElementById('total');
