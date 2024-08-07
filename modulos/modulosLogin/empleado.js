@@ -1,10 +1,10 @@
 let usuarios = []; // Arreglo para almacenar los usuarios del JSON
 
 // Ruta del archivo JSON
-const path = "modulos/modulosLogin/admin.json";
+const path = "modulos/modulosLogin/";
 
 // Cargar los datos de usuarios desde el archivo JSON
-fetch(path)
+fetch(path + "admin.json")
   .then(response => {
     if (!response.ok) {
       throw new Error('Error al cargar el archivo JSON');
