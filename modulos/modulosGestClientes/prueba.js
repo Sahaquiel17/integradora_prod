@@ -33,7 +33,7 @@ const postData = async () => {
     const newUser = getData();
 
     try {
-        const response = await fetch('http://localhost:3000/clientes', {
+        const response = await fetch('clientes', {
             /*especifica el metodo que se va a usar*/
             method: 'POST',
             /*especifica el tipo de informacion (JSON)*/
