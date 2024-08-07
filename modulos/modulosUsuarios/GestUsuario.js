@@ -1,7 +1,7 @@
 
 let obj = []; // arreglo que se llenara de objetos JSON
 let indexProductosSeleccionados; // es el indice del arreglo
-let path = "http://localhost:8080/Proyecto1/modulos/modulosUsuarios/";
+let path = "modulos/modulosUsuarios/";
 
 
 fetch(path + "DatosUsuarios.json")
