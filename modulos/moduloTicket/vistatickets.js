@@ -1,6 +1,6 @@
 let obj = [];
 let indexProductoSeleccionado;
-let path = "http://localhost:8080/Proyecto1/modulos/moduloTicket/";
+let path = "modulos/moduloTicket/";
 fetch(path+"datoTicket.json")
         .then((response) => {
             return response.json();
