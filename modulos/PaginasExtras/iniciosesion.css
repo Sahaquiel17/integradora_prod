@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4EC6A; /* Color de fondo claro */
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-header {
+    background-color: #A11F0C; /* Rojo oscuro */
+    color: #fff;
+}
+
+.card-body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #E73F0B; /* Anaranjado */
+    border-color: #E73F0B;
+}
+
+.btn-primary:hover {
+    background-color: #A11F0C; /* Rojo oscuro */
+    border-color: #A11F0C;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: #BBCF4A; /* Amarillo verdoso */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F4EC6A; /* Amarillo claro */
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+}

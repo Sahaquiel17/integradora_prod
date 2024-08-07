@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Clientes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-mb" style="background-color: #805A3B;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <!-- Links -->
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="../../../../index.html">Inicio</a></li>
+                       <li class="nav-item"><a class="nav-link" href="modulos/modulosProductos_omar/VistaSucursales.html">Sucursales</a></li>
+            <li class="nav-item"><a class="nav-link" href="../../../PaginasExtras/AcercaDe.html">Acerca de...</a></li>
+            <li class="nav-item"><a class="nav-link" href=../../../PaginasExtras/CarritoCompra.html">Carrito de compras</a></li>
+            <li class="nav-item"><a class="nav-link" href="../../../modulosProductos_omar/seleccionSucursal.html">Ordenar</a></li>
+            <li class="nav-item"><a class="nav-link" href="../../../modulosCombosBarajas/VistaCombos.html">Combos</a></li>
+            <li class="nav-item"><a class="nav-link" href="../../../modulosLogin/loginservcios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="../../../PaginasExtras/Menus.html">Menú</a></li>
+                    </ul>
+                </div>
+                <form class="d-flex">
+                     <a class="navbar-brand" href="../../../PaginasExtras/iniciosesion.html">
+            <img src="assets/images/avatar1.png" alt="Logo" style="width:40px;" class="rounded-pill">
+          </a>
+                    <input class="form-control me-2" type="search" placeholder="Buscar...">
+                    <button class="btn p-3 mb-2 bg-danger-subtle text-danger-emphasis" type="button">Buscar</button>
+                    <a class="navbar-brand ms-3" href="#">
+                        <img src="../../../../Logo/logof.png" alt="Logo" style="width: 100px;" class="rounded-pill">
+                    </a>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- FILA DE FORMULARIO -->
+            <div class="row">
+                <!-- COLUMNA DE FORMULARIO -->
+                <div class="col sm-12 lg-6  ">
+                    <form>
+                        <h2>Agregar un nuevo cliente</h2>
+                        <br>
+                        <div class="mb-3">
+                            <label class="form-label">Nombre del cliente
+                                <input type="text" class="btnm form-control" id="txtNombre" name="txtNombre"
+                                    aria-describedby="emailHelp" size="50" required>
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Apellido Paterno
+                                <input type="text" class="btnm form-control" id="txtApp" name="txtApp"
+                                    aria-describedby="emailHelp" size="50" required>
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Apellido Materno
+                                <input type="text" class="btnm form-control" id="txtApm" name="txtApm"
+                                    aria-describedby="emailHelp" size="50" required>
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Telefono
+                                <input type="text" class="btnm form-control" id="txtTel" name="txtTel"
+                                    aria-describedby="emailHelp" size="50" required>
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Correo
+                                <input type="email" class="btnm form-control" id="txtcorreo" name="txtcorreo"
+                                    aria-describedby="emailHelp" size="50" required>
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Numero de Tarjeta
+                                <input type="text" class="btnm form-control" id="txtnum" name="txtnum"
+                                    aria-describedby="emailHelp" size="50" required>
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Estado
+                                <input type="text" class="btnm form-control" id="txtEstado" name="txtEstado"
+                                    aria-describedby="emailHelp" size="50" required>
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Ciudad
+                                <input type="text" class="btnm form-control" id="txtCiudad" name="txtCiudad"
+                                    aria-describedby="emailHelp" size="50" required>
+                            </label>
+                        </div>
+                        <div class=mb-3>
+                            <label class="form-label">Colonia
+                                <input type="text" class="btnm form-control" id="txtColonia" name="txtColonia"
+                                    aria-describedby="emailHelp" size="50" required>
+                            </label>
+                        </div>
+                        <div class=mb-3>
+                            <label class="form-label">Calle
+                                <input type="text" class="btnm form-control" id="txtCalle" name="txtCalle"
+                                    aria-describedby="emailHelp" size="50" required>
+                            </label>
+                        </div>
+                        <div class=mb-3>
+                            <label class="form-label">Codigo Postal
+                                <input type="text" class="btnm form-control" id="txtCP" name="txtCP"
+                                    aria-describedby="emailHelp" required>
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Numero Exterior
+                                <input type="text" class="btnm form-control" id="txtNExt" name="txtNExt"
+                                    aria-describedby="emailHelp" required>
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Numero Interior
+                                <input type="text" class="btnm form-control" id="txtNInt" name="txtNInt"
+                                    aria-describedby="emailHelp">
+                            </label>
+                        </div>
+                         <label class="form-label" for="tipo">Estatus</label>
+                    <select class="btnm form-select form-select-sm w-50 " id="txtEstatus" >
+                        <option value="">Seleccciona un estatus</option>
+                        <option value="Activo">Activo</option>
+                        <option value="Desactivo">Desactivo</option>
+                    </select><br><br>
+                </div> <!-- FORM -->
+
+                <!-- COLUMNA DE IMAGEN -->
+
+                <div class="col sm-12 lg-6  ">
+                    <h2>Clientes</h2>
+                    <div class="d-flex justify-content-center" style="height: 100vh;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" fill="currentColor"
+                            class="bi bi-person-vcard-fill animate-svg" viewBox="0 0 16 16">
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5M9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8m1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5m-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96q.04-.245.04-.5M7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0" />
+                        </svg>
+                    </div>
+                </div> <!-- IMG -->
+
+            </div> <!-- FORM -->
+
+            <div id="map"></div>
+
+            <!-- FILA DE BOTONES -->
+            <div class="row">
+                <div class="col ">
+
+                    <button type="button" class="btns1" id="btnAgregar"
+                        onclick="agregarProducto();">Agregar</button>
+                    <button type="button" class="btns2" id="btnLimpiar"
+                        onclick="limpiar();">Limpiar</button>
+                    <button type="button" class="btns3" id="btnModificar"
+                        onclick="modificaProducto();">Modificar</button>
+                    <button type="button" class="btns4" id="btnEliminar" onclick="eliminarProducto();">
+                        Eliminar</button>
+
+                </div>
+
+            </div>
+
+            <!-- FILA DE TABLA -->
+            <div class="row">
+                <div class="col">
+                    <div class="table-responsive">
+                        <br>
+                        <center> <h2>Lista de clientes</h2></center>
+                        <input class="txts form-control p-3 mb-2  text-success-emphasis" type="text" id="inputBusqueda" placeholder="Buscador de productos" aria-label="Buscador de productos" onkeyup="search()">
+                            <br>
+                        <table class="table table table-striped-columns" id="table">
+                            <thead >
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Apellido Paterno</th>
+                                    <th scope="col">Apellido Materno</th>
+                                    <th scope="col">Telefono</th>
+                                    <th scope="col">Correo</th>
+                                    <th scope="col">Numero Telefonico</th>
+                                    <th scope="col">Estado</th>
+                                    <th scope="col">Ciudad</th>
+                                    <th scope="col">Colonia</th>
+                                    <th scope="col">Calle</th>
+                                    <th scope="col">Codigo Postal</th>
+                                    <th scope="col">Numero Exterior</th>
+                                    <th scope="col">Numero Interior</th>
+                                    <th scope="col">Estatus</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tblProductos">
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" class="text-white me-3" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-3" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="FormCliente.js"></script>
+</body>
+
+</html>

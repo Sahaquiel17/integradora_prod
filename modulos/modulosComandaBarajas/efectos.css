@@ -1,0 +1,37 @@
+body {
+    background: #F4EC6A;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: Jost, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    background: linear-gradient(#A11F0C, #257800, #FF2101);
+    background-clip: text;
+    color: #E7FFB0;
+    -webkit-text-stroke: 8px transparent;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Jost, sans-serif;
+    font-size: 2rem;
+    background: linear-gradient(#A11F0C, #257800, #FF2101);
+    background-clip: text;
+    color: #E7FFB0;
+    -webkit-text-stroke: 8px transparent;
+}
+
+.card {
+    background: #F2FCBE;
+}
+
+.card h-100 {
+    background: #F2FCBE;
+}
+.letraEst {
+      font-family: "Archivo Black", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }

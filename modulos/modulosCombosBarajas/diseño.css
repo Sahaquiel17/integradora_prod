@@ -1,0 +1,104 @@
+
+body{
+    background: #F4EC6A;
+}
+
+h1 {
+    font-size: 6rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    background-image: linear-gradient(270deg, #0054be 0, #004ebb 3.33%, #3447b5 6.67%, #563fad 10%, #6d36a3 13.33%, #7f2b98 16.67%, #8e1f8c 20%, #990d7f 23.33%, #a20071 26.67%, #a80063 30%, #ac0054 33.33%, #ad0046 36.67%, #ad0038 40%, #aa002a 43.33%, #a70f1c 46.67%, #a11f0c 50%, #9a2b00 53.33%, #923500 56.67%, #893d00 60%, #7f4400 63.33%, #754a00 66.67%, #695000 70%, #5c5400 73.33%, #4f5800 76.67%, #405c00 80%, #2d5f00 83.33%, #116100 86.67%, #006300 90%, #006405 93.33%, #00651b 96.67%, #00662c 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 7px 4px 5px #e6eb4f;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.05em;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    background-image: linear-gradient(265deg, #0054be 0, #004ebb 3.33%, #3447b5 6.67%, #563fad 10%, #6d36a3 13.33%, #7f2b98 16.67%, #8e1f8c 20%, #990d7f 23.33%, #a20071 26.67%, #a80063 30%, #ac0054 33.33%, #ad0046 36.67%, #ad0038 40%, #aa002a 43.33%, #a70f1c 46.67%, #a11f0c 50%, #9a2b00 53.33%, #923500 56.67%, #893d00 60%, #7f4400 63.33%, #754a00 66.67%, #695000 70%, #5c5400 73.33%, #4f5800 76.67%, #405c00 80%, #2d5f00 83.33%, #116100 86.67%, #006300 90%, #006405 93.33%, #00651b 96.67%, #00662c 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h1:hover::after {
+    transform: translateX(0);
+}
+
+.letraEst {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.centered-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto; /* Para mantener la proporción de la imagen */
+}
+h2 {
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    background-image: radial-gradient(circle at 50% 50%, #ffbf00 0, #ffae00 8.33%, #ff9a00 16.67%, #ff8200 25%, #ff6800 33.33%, #ff4909 41.67%, #ff2020 50%, #ea002b 58.33%, #d60033 66.67%, #c4003a 75%, #b40042 83.33%, #a6004a 91.67%, #990054 100%);
+    background-clip: text;
+    text-shadow: 2px 2px 3px #900C3F;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.05em;
+}
+h2::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+   background-image: linear-gradient(270deg, #ce9a00 0, #d98b00 8.33%, #df7a00 16.67%, #df6500 25%, #d94d00 33.33%, #cc3100 41.67%, #ba0101 50%, #a6000d 58.33%, #930014 66.67%, #830019 75%, #74001d 83.33%, #680022 91.67%, #5e0029 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h2:hover::after {
+    transform: translateX(0);
+}
+
+.card{
+   border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+   background-image: linear-gradient(230deg, #cb7000 0, #c75e00 12.5%, #bf4c00 25%, #b33702 37.5%, #a11f0c 50%, #8e0011 62.5%, #7d0013 75%, #6e0015 87.5%, #600017 100%);
+    color:white;
+}
+.mb-3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#checkout{
+           width: 200px;
+           height: 70px;
+           font-size: 20px;
+           font-weight: bold;
+        }
+
+.custom-navbar{
+    background-color: #805A3B;
+}
+
+.custom-button{
+    background-color: #FEF2E4;
+}

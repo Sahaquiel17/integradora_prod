@@ -1,0 +1,143 @@
+body{
+    background: #F4EC6A;
+}
+h1 {
+    font-size: 6rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    background-image: radial-gradient(circle at 50% 50%, #ffbf00 0, #ffae00 8.33%, #ff9a00 16.67%, #ff8200 25%, #ff6800 33.33%, #ff4909 41.67%, #ff2020 50%, #ea002b 58.33%, #d60033 66.67%, #c4003a 75%, #b40042 83.33%, #a6004a 91.67%, #990054 100%);
+    background-clip: text;
+    text-shadow: 7px 4px 5px #900C3F;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.05em;
+}
+
+h1::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    background-image: radial-gradient(circle at 50% 50%, #ffff52 0, #fff34e 8.33%, #ffe44d 16.67%, #ffd14d 25%, #ffbd4f 33.33%, #ffa851 41.67%, #ff9151 50%, #eb7c51 58.33%, #da6a51 66.67%, #ca5c52 75%, #bc5154 83.33%, #b14957 91.67%, #a8435b 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h1:hover::after {
+    transform: translateX(0);
+}
+
+h2 {
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    background-image: radial-gradient(circle at 50% 50%, #ffbf00 0, #ffae00 8.33%, #ff9a00 16.67%, #ff8200 25%, #ff6800 33.33%, #ff4909 41.67%, #ff2020 50%, #ea002b 58.33%, #d60033 66.67%, #c4003a 75%, #b40042 83.33%, #a6004a 91.67%, #990054 100%);
+    background-clip: text;
+    text-shadow: 2px 2px 3px #900C3F;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.05em;
+}
+
+h2::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+   background-image: linear-gradient(270deg, #ce9a00 0, #d98b00 8.33%, #df7a00 16.67%, #df6500 25%, #d94d00 33.33%, #cc3100 41.67%, #ba0101 50%, #a6000d 58.33%, #930014 66.67%, #830019 75%, #74001d 83.33%, #680022 91.67%, #5e0029 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h2:hover::after {
+    transform: translateX(0);
+}
+
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+background-image: linear-gradient(0, #cf9b00 0, #db8d00 8.33%, #e17b00 16.67%, #e16600 25%, #db4e00 33.33%, #cf3100 41.67%, #bd0000 50%, #a9000d 58.33%, #960014 66.67%, #860019 75%, #77001e 83.33%, #6b0024 91.67%, #61002a 100%);
+   color:white;
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    
+}
+.letraEst {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ .mt-3 {
+            display: flex;
+            flex-direction: column;
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            border: 5px solid #ff5500;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .cart-item {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .celda {
+             flex: 1;
+            padding: 12px;
+            text-align: center;
+            border-right: 1px solid #e67c7c;
+            color: #fff;
+        }
+
+       .cart-item :first-child {
+            background-color: #e67c7c;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Color de fondo alterno para filas */
+        .cart-item :nth-child(even) {
+            background-color: #bb0202;
+        }
+
+        .cart-item :nth-child(odd) {
+            background-color: #e67c7c;
+        }
+
+        .cart-item :hover {
+            background-color: #ea2271;
+        }
+
+        .celda:last-child {
+            border-right: none;
+        }
+
+        .mt-3::after {
+            content: "";
+            display: block;
+            border-top: 2px solid #e67c7c;
+        }
+        #checkout{
+           width: 200px;
+           height: 70px;
+           font-size: 20px;
+           font-weight: bold;
+        }
+

@@ -1,0 +1,36 @@
+{
+    "comandas": [
+        {
+            "idComanda": "C001",
+            "productos": [
+                {
+                    "idProducto": "P001",
+                    "cantidad": 2,
+                    "precioProducto": 10.50
+                },
+                {
+                    "idProducto": "P002",
+                    "cantidad": 1,
+                    "precioProducto": 5.75
+                }
+            ],
+            "totalComanda": 26.75
+        },
+        {
+            "idComanda": "C002",
+            "productos": [
+                {
+                    "idProducto": "P003",
+                    "cantidad": 3,
+                    "precioProducto": 7
+                },
+                {
+                    "idProducto": "P004",
+                    "cantidad": 5,
+                    "precioProducto": 10
+                }
+            ],
+            "totalComanda": 71
+        }
+    ]
+}

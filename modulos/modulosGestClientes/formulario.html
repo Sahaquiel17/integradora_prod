@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información de Clientes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+  <link href="diseños.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-mb" style="background-color: #805A3B;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <!-- Links -->
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="../../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="../modulosProductos_omar/VistaSucursales.html">Sucursales</a></li>
+            <li class="nav-item"><a class="nav-link" href="../PaginasExtras/AcercaDe.html">Acerca de...</a></li>
+            <li class="nav-item"><a class="nav-link" href="../PaginasExtras/CarritoCompra.html">Carrito de compras</a></li>
+            <li class="nav-item"><a class="nav-link" href="../modulosProductos_omar/seleccionSucursal.html">Ordenar</a></li>
+            <li class="nav-item"><a class="nav-link" href="../modulosCombosBarajas/VistaCombos.html">Combos</a></li>
+            <li class="nav-item"><a class="nav-link" href="../modulosLogin/loginservcios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="../PaginasExtras/Menus.html">Menú</a></li>
+          </ul>
+        </div>
+        <form class="d-flex">
+          <a class="navbar-brand" href="../PaginasExtras/iniciosesion.html">
+            <img src="assets/images/avatar1.png" alt="Logo" style="width:40px;" class="rounded-pill">
+          </a>
+          <input class="form-control me-2" type="search" placeholder="Buscar...">
+          <button class="btn p-3 mb-2 bg-danger-subtle text-danger-emphasis" type="button">Search</button>
+          <a class="navbar-brand ms-3" href="#">
+            <img src="../../Logo/logof.png" alt="Logo" style="width: 100px;" class="rounded-pill">
+          </a>
+        </form>
+      </div>
+    </nav>
+  </header>
+  
+  <main class="container my-4">
+    <h1 class="letraEst text-center">FORMULARIO DE DATOS DEL CLIENTE</h1>
+    <form class="row g-3 needs-validation justify-content-center" id="formularioC" action="" novalidate>
+      <!--COLUMNA 1-->
+      <div class="div col-sm-6 col-md-5 col-lg-6 p-3 ">
+        <div class="mb-3">
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="btnm form-control" id="validationCustom01" name="nombre" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe en mayúsculas.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationCustom02" class="form-label">Apellido Paterno</label>
+          <input type="text" class="btnm form-control" id="validationCustom02" name="app" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe en mayúsculas.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationCustom03" class="form-label">Apellido Materno</label>
+          <input type="text" class="btnm form-control" id="validationCustom03" name="apm" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe en mayúsculas.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationNumero" class="form-label">Numero de telefono</label>
+          <input type="text" class="btnm form-control" id="validationNumero" name="tel" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe un numero de telefono correcto.</div>
+        </div>
+            <div class="mb-3">
+          <label for="validationCustom03" class="form-label">Correo electronico</label>
+          <input type="email" class="btnm form-control" id="validationCustom03" name="correo" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe en mayúsculas.</div>
+        </div>
+           <div class="mb-3">
+          <label for="validationCustom03" class="form-label">Numero de tarjeta</label>
+          <input type="text" class="btnm form-control" id="validationCustom03" name="num" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe en mayúsculas.</div>
+        </div>
+         
+        <div class="mb-3">
+          <label for="validationCustom04" class="form-label">Estado</label>
+          <select class="btnm form-select" id="validationCustom04" name="estado" required>
+            <option selected disabled value="">Selecciona un estado</option>
+               <optgroup label="Noroeste">
+                <option value="BC">Baja California</option>
+                <option value="BCS">Baja California Sur</option>
+                <option value="CHH">Chihuahua</option>
+                <option value="SON">Sonora</option>
+              </optgroup>
+              <optgroup label="Centro-Norte">
+                <option value="AGS">Aguascalientes</option>
+                <option value="DIF">Ciudad de México</option>
+                <option value="GTO">Guanajuato</option>
+                <option value="HID">Hidalgo</option>
+                <option value="JAL">Jalisco</option>
+                <option value="MEX">México</option>
+                <option value="QRO">Querétaro</option>
+                <option value="SLA">San Luis Potosí</option>
+                <option value="ZAC">Zacatecas</option>
+                <option value="COA">Coahuila</option>
+                <option value="NL">Nuevo León</option>
+              </optgroup>
+              <optgroup label="Centro-Sur">
+                <option value="MOR">Morelos</option>
+                <option value="PUE">Puebla</option>
+                <option value="TLX">Tlaxcala</option>
+              </optgroup>
+              <optgroup label="Este">
+                <option value="CAM">Campeche</option>
+                <option value="VZ">Veracruz</option>
+                <option value="QR">Quintana Roo</option>
+                <option value="YUC">Yucatán</option>
+              </optgroup>
+              <optgroup label="Oeste">
+                <option value="COL">Colima</option>
+                <option value="MIC">Michoacán</option>
+              </optgroup>
+              <optgroup label="Sur">
+                <option value="CHIS">Chiapas</option>
+                <option value="OAX">Oaxaca</option>
+                <option value="TAB">Tabasco</option>
+                <option value="TAM">Tamaulipas</option>
+              </optgroup>
+          </select>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, selecciona un estado válido.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationCustom05" class="form-label">Ciudad</label>
+          <input type="text" class="btnm form-control" id="validationCustom05" name="ciudad" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe una ciudad correcta.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationColonia" class="form-label">Colonia</label>
+          <input type="text" class="btnm form-control" id="validationColonia" name="colonia" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe una colonia correcta.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationCalle" class="form-label">Calle</label>
+          <input type="text" class="btnm form-control" id="validationCalle" name="calle" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe una calle correcta.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationCustom06" class="form-label">Código Postal</label>
+          <input type="text" class="btnm form-control" id="validationCustom06" name="CP" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe un código correcto.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationNumExt" class="form-label">Numero exterior</label>
+          <input type="text" class="btnm form-control" id="validationNumExt" name="numExt" required>
+           <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe un numero correcto.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationNumInt" class="form-label">Numero Interior</label>
+          <input type="text" class="btnm form-control" id="validationNumInt" name="numInt">
+          <div class="valid-feedback">No es obligatorio</div>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input class="che form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="che form-check-label" for="invalidCheck">Aceptas términos y condiciones</label>
+            <div class="valid-feedback">Correcto!</div>
+            <div class="invalid-feedback">Debes aceptar antes de continuar.</div>
+          </div>
+        </div>
+        <div class="mb-3">
+            <center><button class="btnen" type="submit" id="btn">Enviar</button></center>
+        </div>
+      </div>
+      <!--COLUMNA 2
+      <div class="col-sm-6 col-md-5 col-lg-6 p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+        <p id="titulo" class="h6"></p>
+        <table class="table" id="respuesta"></table>
+      </div>
+      -->
+    </form>
+  </main>
+  
+  <footer class=" text-white text-center py-4"  style="background-color: #805A3B;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <p class="mb-0">&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-6">
+          <a href="#" class="text-white me-3" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white me-3" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white me-3" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="prueba.js"></script>
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (() => {
+      'use strict'
+      const forms = document.querySelectorAll('.needs-validation')
+      Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+          form.classList.add('was-validated')
+        }, false)
+      })
+    })()
+  </script>
+</body>
+</html>

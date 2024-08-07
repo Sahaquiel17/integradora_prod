@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Información de Clientes</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        <link href="registros.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-mb" style="background-color: #805A3B;">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <!-- Links -->
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item"><a class="nav-link" href="../../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../modulosProductos_omar/VistaSucursales.html">Sucursales</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../PaginasExtras/AcercaDe.html">Acerca de...</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../PaginasExtras/CarritoCompra.html">Carrito de compras</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../modulosProductos_omar/seleccionSucursal.html">Ordenar</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../modulosCombosBarajas/VistaCombos.html">Combos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../modulosLogin/loginservcios.html">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../PaginasExtras/Menus.html">Menú</a></li>
+                        </ul>
+                    </div>
+                    <form class="d-flex">
+                        <a class="navbar-brand" href="../PaginasExtras/iniciosesion.html">
+                            <img src="../../Logo/avatar1.png" alt="Logo" style="width:40px;" class="rounded-pill">
+                        </a>
+                        <input class="form-control me-2" type="search" placeholder="Search">
+                        <button class="btn p-3 mb-2 bg-danger-subtle text-danger-emphasis" type="button">Search</button>
+                        <a class="navbar-brand ms-3" href="#">
+                            <img src="../../Logo/logof.png" alt="Logo" style="width: 100px;" class="rounded-pill">
+                        </a>
+                    </form>
+                </div>
+            </nav>
+        </header><br><br>
+ <main class="container my-4">
+    <h1 class="h1 letraEst text-center">Informacion de su Tarjeta</h1>
+    <form class="row g-3 needs-validation justify-content-center " novalidate>
+      <!--COLUMNA 1-->
+      <div class="div col-sm-6 col-md-5 col-lg-6 p-3 bg-white-subtle border border-grey-subtle rounded-3 border border-4">
+        <div class="mb-3">
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="btnm form-control" id="validationCustom01" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe en mayúsculas.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationCustom02" class="form-label">Apellido Paterno</label>
+          <input type="text" class="btnm form-control" id="validationCustom02" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe en mayúsculas.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationCustom03" class="form-label">Apellido Materno</label>
+          <input type="text" class="btnm form-control" id="validationCustom03" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe en mayúsculas.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationNumero" class="form-label">Numero de Tarjeta</label>
+          <input type="text" class="btnm form-control" id="validationNumero" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe un numero de tarjeta correcto.</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationNumero" class="form-label">Mes en el que vence tu tarjeta</label>
+          <input type="text" class="btnm form-control" id="validationNumero" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe un numero del mes correcto.</div>
+        </div>
+         <div class="mb-3">
+          <label for="validationNumero" class="form-label">Año en el que vence tu tarjeta</label>
+          <input type="text" class="btnm form-control" id="validationNumero" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe un numero de año correcto.</div>
+        </div>
+           <div class="mb-3">
+          <label for="validationNumero" class="form-label">CVV</label>
+          <input type="text" class="btnm form-control" id="validationNumero" required>
+          <div class="valid-feedback">Correcto!</div>
+          <div class="invalid-feedback">Por favor, escribe un cvv correcto.</div>
+        </div>
+       
+      </div>
+      <!--COLUMNA 2
+   <div class="col-sm-6 col-md-5 col-lg-6 p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+        <p id="titulo" class="h6"></p>
+        <table class="table" id="datos"></table>
+      </div>
+      -->
+    </form>
+  </main>
+   <div class="mb-3">
+            <center>
+                <a href="../moduloTicket/ticket.html">
+                <button class="btnen" type="submit">comprar</button></a></center>
+   </div><br><br>
+ 
+        <script src="tarjeta.js" type="text/javascript"></script>
+
+    </body>
+</html>

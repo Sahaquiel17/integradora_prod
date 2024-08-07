@@ -1,0 +1,20 @@
+{
+    "sucursal":[
+    {
+        "nombresu": "Sucursal Polanco"
+    },
+    {
+        "nombresu": "Sucursal Insurgentes"
+    },
+    {
+         "nombresu": "Sucursal Reforma"
+    },
+    {
+         "nombresu": "Sucursal Condesa"
+    },
+    {
+        "nombresu": "Sucursal Roma"
+    }
+    
+    ]
+}

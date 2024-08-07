@@ -1,0 +1,65 @@
+body{
+    background: #F4EC6A;
+}
+h1 {
+    font-size: 6rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    background-image: radial-gradient(circle at 50% 50%, #4969e5 0, #6f61dd 3.33%, #8a58d3 6.67%, #a04ec7 10%, #b244b9 13.33%, #c039ab 16.67%, #cb2f9b 20%, #d3258b 23.33%, #d91e7b 26.67%, #dc1c6a 30%, #dd205a 33.33%, #db284a 36.67%, #d7323b 40%, #d23c2b 43.33%, #cb4619 46.67%, #c24f00 50%, #b85800 53.33%, #ad6000 56.67%, #a06700 60%, #936d00 63.33%, #857300 66.67%, #767800 70%, #667c00 73.33%, #547f00 76.67%, #3e8200 80%, #1f8500 83.33%, #00871a 86.67%, #00892e 90%, #008a40 93.33%, #008b52 96.67%, #008c63 100%);
+    background-clip: text;
+    text-shadow: 7px 4px 5px #59ca00;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.05em;
+}
+
+h1::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    background-image: radial-gradient(circle at 50% 50%, #ff2c6d 0, #ff3859 3.33%, #ff4645 6.67%, #ff5331 10%, #ff5f18 13.33%, #f56b00 16.67%, #e77600 20%, #d98000 23.33%, #c88900 26.67%, #b79000 30%, #a59700 33.33%, #919d00 36.67%, #7ba200 40%, #63a600 43.33%, #45aa00 46.67%, #00ad0a 50%, #00af2e 53.33%, #00b146 56.67%, #00b35d 60%, #00b473 63.33%, #00b589 66.67%, #00b69f 70%, #00b6b5 73.33%, #00b6ca 76.67%, #00b6de 80%, #00b5f1 83.33%, #00b4ff 86.67%, #00b2ff 90%, #00b0ff 93.33%, #00acff 96.67%, #00a8ff 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h1:hover::after {
+    transform: translateX(0);
+}
+.letraEst {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.img-fluid{
+    width: 50px;
+    height: 50px;
+}
+
+
+.row {
+    width: 50%; /* Ancho definido */
+    margin: 0 auto; /* Centrado horizontal */
+    color: white;
+    padding: 20px;
+}
+.card-img-top{
+    font-size: 16px;
+    padding: 20px 30px;
+    color: #fff;
+    background-image: radial-gradient(circle at 50% 50%, #9f9aff 0, #bb93ff 3.33%, #d38aff 6.67%, #e782fb 10%, #f87bec 13.33%, #ff74dc 16.67%, #ff6ecb 20%, #ff6aba 23.33%, #ff68a8 26.67%, #ff6897 30%, #ff6b86 33.33%, #ff6f75 36.67%, #ff7565 40%, #ff7c55 43.33%, #ff8346 46.67%, #ff8b38 50%, #f4922a 53.33%, #e79a1c 56.67%, #d9a00f 60%, #caa703 63.33%, #baac03 66.67%, #a9b10f 70%, #97b61e 73.33%, #84ba2c 76.67%, #6ebd3c 80%, #54c04b 83.33%, #2ec25c 86.67%, #00c46d 90%, #00c67e 93.33%, #00c790 96.67%, #00c8a3 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease;
+    border: 7px solid #429600;
+    border-radius: 60px;
+}
+.card-img-top:hover {
+    background-image: radial-gradient(circle at 50% 50%, #ffa9ff 0, #ffa2ff 3.33%, #ff9efd 6.67%, #ff9be8 10%, #ff9ad4 13.33%, #ff9cbf 16.67%, #ffa0ab 20%, #ffa698 23.33%, #ffad85 26.67%, #ffb574 30%, #ffbd64 33.33%, #ffc656 36.67%, #ffce49 40%, #ffd63f 43.33%, #ffdd39 46.67%, #ffe438 50%, #ebea3c 53.33%, #d7f045 56.67%, #c0f551 60%, #a8f960 63.33%, #8dfd70 66.67%, #6dff82 70%, #3dff96 73.33%, #00ffaa 76.67%, #00ffbf 80%, #00ffd4 83.33%, #00ffea 86.67%, #00ffff 90%, #00ffff 93.33%, #00ffff 96.67%, #00ffff 100%);
+    transform: scale(1.05);
+    border-color: #50e2ff;
+}

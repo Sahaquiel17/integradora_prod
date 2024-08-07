@@ -1,0 +1,91 @@
+
+body{
+    background: #F4EC6A;
+}
+
+h1 {
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    
+    text-shadow: 7px 4px 5px #a11f0c;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke: 10px transparent;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    background-image: radial-gradient(circle at 50% 50%, #d4bf00 0, #e1b100 8.33%, #e9a100 16.67%, #eb8e00 25%, #e77800 33.33%, #dd6000 41.67%, #cd4701 50%, #bb2d11 58.33%, #aa0e19 66.67%, #9b001f 75%, #8e0024 83.33%, #830029 91.67%, #7a0030 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h1:hover::after {
+    transform: translateX(0);
+}
+
+.letraEst {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.btnm{
+    font-size: 20px;
+    background: #e73f0b;
+    color: white;
+    font-weight: bold;
+}
+.btnm:hover{
+    font-size: 20px;
+    background: #e73f0b;
+    color: white;
+    font-weight: bold;
+}
+option{
+     font-size: 20px;
+    background: #a11f0c;
+    color: white;
+    font-weight: bold;
+}
+.optgroup{
+      font-size: 20px;
+    background: #e73f0b;
+    color: white;
+    font-weight: bold;
+}
+
+.form-label{
+    font-size: 20px;
+    font-weight: bold;
+    color:#a11f0c;
+    text-shadow: 3px 3px 8px #ff5037;
+}
+
+.div{
+    
+    border: 8px solid #a11f0c; 
+            border-radius: 8px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 14px #a11f0c; 
+} 
+.che{
+    font-size: 20px;
+            border-radius: 8px;
+            font-weight: bold;
+    color:#a11f0c;
+    text-shadow: 3px 3px 8px #ff5037;
+}
+.btn{
+    width: 180px;
+    height: 60px;
+      font-size: 30px;
+       font-weight: bold;
+}

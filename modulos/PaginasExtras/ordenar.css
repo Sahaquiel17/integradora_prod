@@ -1,0 +1,62 @@
+body{
+    background: #F4EC6A;
+}
+
+/* Sección principal */
+.container {
+    padding: 20px;
+}
+
+/* Tarjetas */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card-header {
+    background-color: #E73F0B; /* Color anaranjado */
+    color: #fff;
+    padding: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card-body {
+    background-color: #fff; /* Fondo blanco para el contenido */
+    padding: 20px;
+    color: #333;
+}
+
+.card-body h5 {
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+
+.card-body p {
+    margin-bottom: 15px;
+}
+
+
+
+.card-body a:hover {
+    background-color: #A11F0C; /* Color más oscuro al pasar el ratón */
+    transform: scale(1.05);
+}
+
+/* Sección de botones */
+
+/* Footer */
+footer {
+    background-color: #A11F0C; /* Color de fondo oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}

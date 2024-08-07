@@ -1,0 +1,56 @@
+body{
+    background: #F4EC6A;
+}
+h1 {
+     font-size: 6rem;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    background-image: linear-gradient(90deg, #842895 0, #911b89 5%, #9b077c 10%, #a3006e 15%, #a90060 20%, #ac0052 25%, #ad0045 30%, #ad0037 35%, #aa002a 40%, #a60f1c 45%, #a11f0c 50%, #9a2b00 55%, #933400 60%, #8a3c00 65%, #804300 70%, #764a00 75%, #6b4f00 80%, #5f5400 85%, #525800 90%, #445b00 95%, #335e00 100%);
+    background-clip: text;
+    text-shadow: 7px 4px 5px #950ec4;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    -webkit-text-stroke: 10px transparent;
+    letter-spacing: 0.05em;
+}
+
+h1::after {
+content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+   background-image: radial-gradient(circle at 50% 50%, #ac004e 0, #ad0041 10%, #ac0035 20%, #aa0028 30%, #a6111b 40%, #a11f0c 50%, #9b2a00 60%, #943300 70%, #8c3b00 80%, #834200 90%, #794800 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+h1:hover::after {
+    transform: translateX(0);
+}
+.letraEst {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.card{
+    background-image: linear-gradient(90deg, #a60067 0, #aa005a 7.14%, #ad004d 14.29%, #ad0041 21.43%, #ac0034 28.57%, #aa0028 35.71%, #a6111b 42.86%, #a11f0c 50%, #9b2a00 57.14%, #943300 64.29%, #8c3b00 71.43%, #834100 78.57%, #7a4700 85.71%, #704d00 92.86%, #655100 100%);
+    color:white;
+    font-weight: bold;
+     text-shadow: 7px 4px 5px #cbabe1;
+     box-shadow: 0 10px 20px #911907;
+      border: 1px solid #911907;
+    padding: 10px;
+}
+.btnm{
+    background: #c9de62;
+     box-shadow: 0 10px 20px #6f7f0c;
+}
+.btn{
+     text-shadow: 7px 4px 5px #cbabe1;
+     font-weight: bold;
+     color:#581845;
+      box-shadow: 0 10px 20px #911907;
+}
