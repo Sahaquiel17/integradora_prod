@@ -1,5 +1,5 @@
 const comboContainer = document.getElementById("combo-container");
-const dataPath = "http://localhost:3000/modulos/modulosCombosBarajas/";
+const dataPath = "modulos/modulosCombosBarajas/";
 let allCombos = [];
 
 // Cargar y mostrar los combos al cargar la página
