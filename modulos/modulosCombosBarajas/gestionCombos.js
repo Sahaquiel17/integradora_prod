@@ -1,7 +1,7 @@
 let obj = [];
 let indexComboSeleccionado;
 const imgPath = "img/"; // Ruta a la carpeta de imágenes
-const dataPath = "http://localhost:3000/modulos/modulosCombosBarajas/";
+const dataPath = "modulos/modulosCombosBarajas/";
 
 // Cargar los datos desde el archivo JSON
 fetch(dataPath + "combos.json")
