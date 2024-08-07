@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     let total = 0;
-    let path = "http://localhost:8080/Proyecto1/modulos/modulosProductos_yuli/";
+    let path = "modulos/modulosProductos_yuli/";
 
 
     fetch(path + "productos.json")
