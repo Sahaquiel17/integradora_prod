@@ -1,7 +1,7 @@
 let usuarios = []; // Arreglo para almacenar los usuarios del JSON
 
 // Ruta del archivo JSON
-const path = "http://localhost:8080/Proyecto1/modulos/modulosLogin/admin.json";
+const path = "modulos/modulosLogin/admin.json";
 
 // Cargar los datos de usuarios desde el archivo JSON
 fetch(path)
